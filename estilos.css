@@ -1,0 +1,48 @@
+
+@media (min-width: 800px) and (max-width: 1200px){
+    header{
+        background-image: url(img/superior.jpg);
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: white;
+        min-height: 200px;
+    }
+    header nav{
+        height: 62px;
+        background-color: black;
+        text-align: center;
+        opacity: 70%;
+    }
+    header nav ul{
+        list-style: none;
+        display: inline-block;
+    }
+    header nav ul li{
+        float: left;
+        padding: 0.3em;
+        margin-left: 2em;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    section.cuerpo{
+        position: absolute;
+        z-index: 2;
+        top: 127px;
+        background-color: white;
+        width: 60%;
+        left: 20%;
+        text-align: center;
+    }
+    section article{
+        float: left;
+        width: 50%;
+        
+    }
+    section article img{
+        width: 90%;
+    }
+}
